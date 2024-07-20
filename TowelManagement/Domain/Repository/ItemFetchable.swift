@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import CoreData
+//
+//struct ItemFetchable: LocalDataSourceProtocol {
+//    
+//    
+//    
+//    typealias FetchableType = NSManagedObject
+//
+//}

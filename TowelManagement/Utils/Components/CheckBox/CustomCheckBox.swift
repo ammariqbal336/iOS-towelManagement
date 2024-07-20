@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct CustomCheckBox: View {
+    @Binding var isOn : Bool
+    var label: String?
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Toggle(label ?? "", isOn: $isOn)
     }
 }
 
-#Preview {
-    CustomCheckBox()
-}
+//#Preview {
+//    CustomCheckBox()
+//}

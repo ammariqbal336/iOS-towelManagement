@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct ToastModel {
+    
+    var image: String
+    var title:String
+}

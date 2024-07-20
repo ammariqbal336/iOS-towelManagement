@@ -8,8 +8,35 @@
 import SwiftUI
 
 struct AddTowelType: View {
+    @Environment(\.presentationMode) var presentation
+
+    @EnvironmentObject var vm: TowelTypeViewModel
+    @State var typeTextField: String = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack() {
+                
+                Text("Add Towel Type")
+                    .font(.title)
+                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,alignment: .leading)
+                    .padding(EdgeInsets(top: 100, leading: 20, bottom: 20, trailing: 20))
+                    
+                   
+                CustomTextField(hint: "Towel Type", text: $typeTextField)
+                 
+                CustomButtons(actions: {
+                    
+                    vm.addType(name: typeTextField)
+                    self.presentation.wrappedValue.dismiss()
+                    //.presentationMode.wrappedValue.dismiss()
+                }, displayText: "Submit")
+                
+                Spacer()
+                
+            }.padding()
+        }
+        
     }
 }
 

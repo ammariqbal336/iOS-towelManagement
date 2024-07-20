@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct ItemFetchable: LocalDataSourceProtocol {
+    typealias FetchableType = NSObjectProtocol
+}

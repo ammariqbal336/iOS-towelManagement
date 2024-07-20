@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct CustomDatePicker: View {
+    @Binding var date: Date
+    let title: String
+    var displayComponent : DatePicker<Label>.Components? = [.date]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        DatePicker(title,
+           selection: $date,
+           displayedComponents: displayComponent!)
+           .pickerStyle(InlinePickerStyle())
     }
 }
 
-#Preview {
-    CustomDatePicker()
-}
+//#Preview {
+//    CustomDatePicker()
+//}

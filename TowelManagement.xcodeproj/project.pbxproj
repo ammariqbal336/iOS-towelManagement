@@ -7,18 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043F81852C1A0D410085E697 /* EditRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F81842C1A0D410085E697 /* EditRateView.swift */; };
+		043F818A2C1A1CB70085E697 /* ClientTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F81892C1A1CB70085E697 /* ClientTypeViewModel.swift */; };
+		043F818C2C1A1DA40085E697 /* ClientTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F818B2C1A1DA40085E697 /* ClientTypeView.swift */; };
+		043F818E2C1A213A0085E697 /* AddClientTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F818D2C1A213A0085E697 /* AddClientTypeView.swift */; };
+		043FB7B22C0B619C00A76E41 /* TowelTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB7B12C0B619C00A76E41 /* TowelTypeView.swift */; };
+		043FB7B42C0B661400A76E41 /* TowelTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB7B32C0B661400A76E41 /* TowelTypeViewModel.swift */; };
+		043FB7B82C0B7AA300A76E41 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB7B72C0B7AA300A76E41 /* CustomTextField.swift */; };
+		043FB7BB2C0B7BCB00A76E41 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB7BA2C0B7BCB00A76E41 /* CustomButtons.swift */; };
+		043FB7BD2C0B859300A76E41 /* AddTowelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB7BC2C0B859300A76E41 /* AddTowelType.swift */; };
+		043FB7BF2C0B912400A76E41 /* EditTowelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB7BE2C0B912400A76E41 /* EditTowelType.swift */; };
+		046950572C270B3800158A75 /* TransactionBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046950562C270B3800158A75 /* TransactionBillView.swift */; };
+		046950592C270B6A00158A75 /* TransactionBillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046950582C270B6A00158A75 /* TransactionBillViewModel.swift */; };
+		0469505B2C270FBB00158A75 /* AddTransactionBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469505A2C270FBB00158A75 /* AddTransactionBillView.swift */; };
+		0476EF3C2C2C820100BEE6E8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476EF3B2C2C820100BEE6E8 /* NetworkService.swift */; };
+		0476EF3E2C2C82ED00BEE6E8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476EF3D2C2C82ED00BEE6E8 /* DataModel.swift */; };
+		047C83872C10CD0600373E22 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C83862C10CD0600373E22 /* HomeViewModel.swift */; };
+		047C83892C10CEE900373E22 /* CustomToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C83882C10CEE900373E22 /* CustomToast.swift */; };
+		047C83902C10D72300373E22 /* ToastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C838F2C10D72300373E22 /* ToastModel.swift */; };
+		047C83922C10DBAB00373E22 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C83912C10DBAB00373E22 /* Overlay.swift */; };
+		047C83952C10DF1B00373E22 /* TowelInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C83942C10DF1B00373E22 /* TowelInfoView.swift */; };
+		047C83972C10DF4000373E22 /* TowelInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C83962C10DF4000373E22 /* TowelInfoViewModel.swift */; };
+		047C83992C10DFF000373E22 /* AddTowelInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C83982C10DFF000373E22 /* AddTowelInfo.swift */; };
+		047C839B2C10E03000373E22 /* EditTowelInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C839A2C10E03000373E22 /* EditTowelInfo.swift */; };
+		047D86242C249C59005CD2D7 /* EditClientInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D86232C249C59005CD2D7 /* EditClientInfoView.swift */; };
+		0487C6A82C34560900E46602 /* LocalDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C6A72C34560900E46602 /* LocalDataSourceProtocol.swift */; };
+		0487C6AC2C346BA800E46602 /* ItemFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487C6AB2C346BA800E46602 /* ItemFetchable.swift */; };
+		048D04EA2C0F90A400007491 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04E92C0F90A400007491 /* HomeView.swift */; };
+		048D04EE2C0F912A00007491 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04ED2C0F912A00007491 /* MenuItem.swift */; };
+		048D04F12C0F967500007491 /* TowelSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04F02C0F967500007491 /* TowelSizeView.swift */; };
+		048D04F32C0F96F100007491 /* TowelSizeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04F22C0F96F100007491 /* TowelSizeViewModel.swift */; };
+		048D04F52C0F98B100007491 /* AddTowelSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04F42C0F98B100007491 /* AddTowelSize.swift */; };
+		048D04F72C0F98BC00007491 /* EditTowelSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D04F62C0F98BC00007491 /* EditTowelSize.swift */; };
+		049F30D12C1B5871001B80E6 /* EditClientTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F30D02C1B5871001B80E6 /* EditClientTypeView.swift */; };
+		049F30D42C1B5AFF001B80E6 /* ClientInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F30D32C1B5AFF001B80E6 /* ClientInfoViewModel.swift */; };
+		049F30D62C1B5C34001B80E6 /* ClientInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F30D52C1B5C34001B80E6 /* ClientInfoView.swift */; };
+		049F30D82C1B5CC1001B80E6 /* AddClientInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F30D72C1B5CC1001B80E6 /* AddClientInfoView.swift */; };
+		04A0A1C82C147C6A003E5E2E /* TowelRateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0A1C72C147C6A003E5E2E /* TowelRateViewModel.swift */; };
+		04A0A1CA2C14812D003E5E2E /* AddRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0A1C92C14812D003E5E2E /* AddRateView.swift */; };
+		04A0A1CC2C148166003E5E2E /* TowelRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0A1CB2C148166003E5E2E /* TowelRateView.swift */; };
+		04A0A1CF2C14876B003E5E2E /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0A1CE2C14876B003E5E2E /* DropDownView.swift */; };
+		04A0A1D12C1488F2003E5E2E /* DropDownPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0A1D02C1488F2003E5E2E /* DropDownPicker.swift */; };
+		04A0A1D32C14933A003E5E2E /* DropDownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0A1D22C14933A003E5E2E /* DropDownItem.swift */; };
+		04A0A1D62C14AAF1003E5E2E /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0A1D52C14AAF1003E5E2E /* CustomDatePicker.swift */; };
+		04A0A1D92C14AC94003E5E2E /* CustomCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0A1D82C14AC94003E5E2E /* CustomCheckBox.swift */; };
+		04A693032C2C872B00A9743E /* TowelInfoRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A693022C2C872B00A9743E /* TowelInfoRepo.swift */; };
+		04A693052C2C87A100A9743E /* CustomEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A693042C2C87A100A9743E /* CustomEnum.swift */; };
+		04A693082C2C87E000A9743E /* TowelInfoRepoImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A693072C2C87E000A9743E /* TowelInfoRepoImpl.swift */; };
+		04A6930C2C2C89B100A9743E /* LocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6930B2C2C89B100A9743E /* LocalDataSource.swift */; };
+		04A6930F2C33028D00A9743E /* DependencyInjectionContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6930E2C33028D00A9743E /* DependencyInjectionContainer.swift */; };
 		04C0C2A62C0B3EE0009554DF /* TowelManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0C2A52C0B3EE0009554DF /* TowelManagementApp.swift */; };
 		04C0C2A82C0B3EE0009554DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0C2A72C0B3EE0009554DF /* ContentView.swift */; };
 		04C0C2AA2C0B3EE3009554DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C0C2A92C0B3EE3009554DF /* Assets.xcassets */; };
 		04C0C2AD2C0B3EE3009554DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C0C2AC2C0B3EE3009554DF /* Preview Assets.xcassets */; };
+		04C0C2B52C0B4192009554DF /* TowelManagementData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04C0C2B32C0B4192009554DF /* TowelManagementData.xcdatamodeld */; };
+		04C0C2B82C0B4B37009554DF /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0C2B72C0B4B37009554DF /* CoreDataManager.swift */; };
+		04D6E2D82C4C07770080DD7C /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6E2D72C4C07770080DD7C /* LoginRequest.swift */; };
+		04D6E2DB2C4C07E30080DD7C /* GeneralReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6E2DA2C4C07E30080DD7C /* GeneralReponse.swift */; };
+		04D6E2DD2C4C087A0080DD7C /* LoginReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6E2DC2C4C087A0080DD7C /* LoginReponse.swift */; };
+		04D6E2DF2C4C09FD0080DD7C /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6E2DE2C4C09FD0080DD7C /* UserResponse.swift */; };
+		04D6E2E12C4C1E8A0080DD7C /* CustomKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6E2E02C4C1E8A0080DD7C /* CustomKeyChain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043F81842C1A0D410085E697 /* EditRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRateView.swift; sourceTree = "<group>"; };
+		043F81892C1A1CB70085E697 /* ClientTypeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTypeViewModel.swift; sourceTree = "<group>"; };
+		043F818B2C1A1DA40085E697 /* ClientTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTypeView.swift; sourceTree = "<group>"; };
+		043F818D2C1A213A0085E697 /* AddClientTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClientTypeView.swift; sourceTree = "<group>"; };
+		043FB7B12C0B619C00A76E41 /* TowelTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowelTypeView.swift; sourceTree = "<group>"; };
+		043FB7B32C0B661400A76E41 /* TowelTypeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowelTypeViewModel.swift; sourceTree = "<group>"; };
+		043FB7B72C0B7AA300A76E41 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		043FB7BA2C0B7BCB00A76E41 /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		043FB7BC2C0B859300A76E41 /* AddTowelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTowelType.swift; sourceTree = "<group>"; };
+		043FB7BE2C0B912400A76E41 /* EditTowelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTowelType.swift; sourceTree = "<group>"; };
+		046950562C270B3800158A75 /* TransactionBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBillView.swift; sourceTree = "<group>"; };
+		046950582C270B6A00158A75 /* TransactionBillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBillViewModel.swift; sourceTree = "<group>"; };
+		0469505A2C270FBB00158A75 /* AddTransactionBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionBillView.swift; sourceTree = "<group>"; };
+		0476EF3B2C2C820100BEE6E8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0476EF3D2C2C82ED00BEE6E8 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		047C83862C10CD0600373E22 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		047C83882C10CEE900373E22 /* CustomToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToast.swift; sourceTree = "<group>"; };
+		047C838F2C10D72300373E22 /* ToastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastModel.swift; sourceTree = "<group>"; };
+		047C83912C10DBAB00373E22 /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+		047C83942C10DF1B00373E22 /* TowelInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowelInfoView.swift; sourceTree = "<group>"; };
+		047C83962C10DF4000373E22 /* TowelInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowelInfoViewModel.swift; sourceTree = "<group>"; };
+		047C83982C10DFF000373E22 /* AddTowelInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTowelInfo.swift; sourceTree = "<group>"; };
+		047C839A2C10E03000373E22 /* EditTowelInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTowelInfo.swift; sourceTree = "<group>"; };
+		047D86232C249C59005CD2D7 /* EditClientInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditClientInfoView.swift; sourceTree = "<group>"; };
+		0487C6A72C34560900E46602 /* LocalDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataSourceProtocol.swift; sourceTree = "<group>"; };
+		0487C6AB2C346BA800E46602 /* ItemFetchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemFetchable.swift; sourceTree = "<group>"; };
+		048D04E92C0F90A400007491 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		048D04ED2C0F912A00007491 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		048D04F02C0F967500007491 /* TowelSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowelSizeView.swift; sourceTree = "<group>"; };
+		048D04F22C0F96F100007491 /* TowelSizeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowelSizeViewModel.swift; sourceTree = "<group>"; };
+		048D04F42C0F98B100007491 /* AddTowelSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTowelSize.swift; sourceTree = "<group>"; };
+		048D04F62C0F98BC00007491 /* EditTowelSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTowelSize.swift; sourceTree = "<group>"; };
+		049F30D02C1B5871001B80E6 /* EditClientTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditClientTypeView.swift; sourceTree = "<group>"; };
+		049F30D32C1B5AFF001B80E6 /* ClientInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfoViewModel.swift; sourceTree = "<group>"; };
+		049F30D52C1B5C34001B80E6 /* ClientInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfoView.swift; sourceTree = "<group>"; };
+		049F30D72C1B5CC1001B80E6 /* AddClientInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClientInfoView.swift; sourceTree = "<group>"; };
+		04A0A1C72C147C6A003E5E2E /* TowelRateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowelRateViewModel.swift; sourceTree = "<group>"; };
+		04A0A1C92C14812D003E5E2E /* AddRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRateView.swift; sourceTree = "<group>"; };
+		04A0A1CB2C148166003E5E2E /* TowelRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowelRateView.swift; sourceTree = "<group>"; };
+		04A0A1CE2C14876B003E5E2E /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		04A0A1D02C1488F2003E5E2E /* DropDownPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownPicker.swift; sourceTree = "<group>"; };
+		04A0A1D22C14933A003E5E2E /* DropDownItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownItem.swift; sourceTree = "<group>"; };
+		04A0A1D52C14AAF1003E5E2E /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		04A0A1D82C14AC94003E5E2E /* CustomCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckBox.swift; sourceTree = "<group>"; };
+		04A693022C2C872B00A9743E /* TowelInfoRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowelInfoRepo.swift; sourceTree = "<group>"; };
+		04A693042C2C87A100A9743E /* CustomEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnum.swift; sourceTree = "<group>"; };
+		04A693072C2C87E000A9743E /* TowelInfoRepoImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowelInfoRepoImpl.swift; sourceTree = "<group>"; };
+		04A6930B2C2C89B100A9743E /* LocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataSource.swift; sourceTree = "<group>"; };
+		04A6930E2C33028D00A9743E /* DependencyInjectionContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionContainer.swift; sourceTree = "<group>"; };
 		04C0C2A22C0B3EE0009554DF /* TowelManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TowelManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C0C2A52C0B3EE0009554DF /* TowelManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowelManagementApp.swift; sourceTree = "<group>"; };
 		04C0C2A72C0B3EE0009554DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04C0C2A92C0B3EE3009554DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C0C2AC2C0B3EE3009554DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04C0C2B42C0B4192009554DF /* TowelManagementData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TowelManagementData.xcdatamodel; sourceTree = "<group>"; };
+		04C0C2B72C0B4B37009554DF /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		04D6E2D72C4C07770080DD7C /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		04D6E2DA2C4C07E30080DD7C /* GeneralReponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralReponse.swift; sourceTree = "<group>"; };
+		04D6E2DC2C4C087A0080DD7C /* LoginReponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReponse.swift; sourceTree = "<group>"; };
+		04D6E2DE2C4C09FD0080DD7C /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		04D6E2E02C4C1E8A0080DD7C /* CustomKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyChain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +144,269 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043F81862C1A1C840085E697 /* ClientType */ = {
+			isa = PBXGroup;
+			children = (
+				043F81892C1A1CB70085E697 /* ClientTypeViewModel.swift */,
+				043F818B2C1A1DA40085E697 /* ClientTypeView.swift */,
+				043F818D2C1A213A0085E697 /* AddClientTypeView.swift */,
+				049F30D02C1B5871001B80E6 /* EditClientTypeView.swift */,
+			);
+			path = ClientType;
+			sourceTree = "<group>";
+		};
+		043FB7AF2C0B617800A76E41 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				046950552C270B1400158A75 /* TransactionBill */,
+				049F30D22C1B5AEB001B80E6 /* ClientInfo */,
+				043F81862C1A1C840085E697 /* ClientType */,
+				04A0A1C62C147C48003E5E2E /* TowelRate */,
+				047C83932C10DEFC00373E22 /* TowelInfo */,
+				048D04EF2C0F966200007491 /* TowelSize */,
+				048D04E82C0F908700007491 /* Dashboard */,
+				043FB7B02C0B618900A76E41 /* TowelType */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		043FB7B02C0B618900A76E41 /* TowelType */ = {
+			isa = PBXGroup;
+			children = (
+				043FB7B12C0B619C00A76E41 /* TowelTypeView.swift */,
+				043FB7B32C0B661400A76E41 /* TowelTypeViewModel.swift */,
+				043FB7BC2C0B859300A76E41 /* AddTowelType.swift */,
+				043FB7BE2C0B912400A76E41 /* EditTowelType.swift */,
+			);
+			path = TowelType;
+			sourceTree = "<group>";
+		};
+		043FB7B52C0B7A8200A76E41 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				04A0A1D72C14AC85003E5E2E /* CheckBox */,
+				04A0A1D42C14AADF003E5E2E /* DatePicker */,
+				04A0A1CD2C148759003E5E2E /* DropDown */,
+				047C838A2C10D04100373E22 /* Toast */,
+				043FB7B92C0B7BBB00A76E41 /* Buttons */,
+				043FB7B62C0B7A8D00A76E41 /* TextFields */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		043FB7B62C0B7A8D00A76E41 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				043FB7B72C0B7AA300A76E41 /* CustomTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		043FB7B92C0B7BBB00A76E41 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				043FB7BA2C0B7BCB00A76E41 /* CustomButtons.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		046950552C270B1400158A75 /* TransactionBill */ = {
+			isa = PBXGroup;
+			children = (
+				046950562C270B3800158A75 /* TransactionBillView.swift */,
+				046950582C270B6A00158A75 /* TransactionBillViewModel.swift */,
+				0469505A2C270FBB00158A75 /* AddTransactionBillView.swift */,
+			);
+			path = TransactionBill;
+			sourceTree = "<group>";
+		};
+		0476EF392C2C819300BEE6E8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				04A6930D2C33028000A9743E /* DI */,
+				04A693092C2C888600A9743E /* DataSource */,
+				04A693062C2C87C800A9743E /* Repository */,
+				0476EF3A2C2C819900BEE6E8 /* network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0476EF3A2C2C819900BEE6E8 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				0476EF3B2C2C820100BEE6E8 /* NetworkService.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		047C838A2C10D04100373E22 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				047C83882C10CEE900373E22 /* CustomToast.swift */,
+				047C838F2C10D72300373E22 /* ToastModel.swift */,
+				047C83912C10DBAB00373E22 /* Overlay.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		047C83932C10DEFC00373E22 /* TowelInfo */ = {
+			isa = PBXGroup;
+			children = (
+				047C83942C10DF1B00373E22 /* TowelInfoView.swift */,
+				047C83962C10DF4000373E22 /* TowelInfoViewModel.swift */,
+				047C83982C10DFF000373E22 /* AddTowelInfo.swift */,
+				047C839A2C10E03000373E22 /* EditTowelInfo.swift */,
+			);
+			path = TowelInfo;
+			sourceTree = "<group>";
+		};
+		048D04E72C0F906100007491 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				043FB7B52C0B7A8200A76E41 /* Components */,
+				04A693042C2C87A100A9743E /* CustomEnum.swift */,
+				04D6E2E02C4C1E8A0080DD7C /* CustomKeyChain.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		048D04E82C0F908700007491 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				048D04E92C0F90A400007491 /* HomeView.swift */,
+				047C83862C10CD0600373E22 /* HomeViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		048D04EB2C0F910800007491 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				04A693012C2C86F000A9743E /* Repository */,
+				04A693002C2C864300A9743E /* UseCases */,
+				048D04EC2C0F910D00007491 /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		048D04EC2C0F910D00007491 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04D6E2D92C4C07CD0080DD7C /* auth */,
+				048D04ED2C0F912A00007491 /* MenuItem.swift */,
+				04A0A1D22C14933A003E5E2E /* DropDownItem.swift */,
+				0476EF3D2C2C82ED00BEE6E8 /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		048D04EF2C0F966200007491 /* TowelSize */ = {
+			isa = PBXGroup;
+			children = (
+				048D04F02C0F967500007491 /* TowelSizeView.swift */,
+				048D04F22C0F96F100007491 /* TowelSizeViewModel.swift */,
+				048D04F42C0F98B100007491 /* AddTowelSize.swift */,
+				048D04F62C0F98BC00007491 /* EditTowelSize.swift */,
+			);
+			path = TowelSize;
+			sourceTree = "<group>";
+		};
+		049F30D22C1B5AEB001B80E6 /* ClientInfo */ = {
+			isa = PBXGroup;
+			children = (
+				049F30D32C1B5AFF001B80E6 /* ClientInfoViewModel.swift */,
+				049F30D52C1B5C34001B80E6 /* ClientInfoView.swift */,
+				049F30D72C1B5CC1001B80E6 /* AddClientInfoView.swift */,
+				047D86232C249C59005CD2D7 /* EditClientInfoView.swift */,
+			);
+			path = ClientInfo;
+			sourceTree = "<group>";
+		};
+		04A0A1C62C147C48003E5E2E /* TowelRate */ = {
+			isa = PBXGroup;
+			children = (
+				04A0A1C72C147C6A003E5E2E /* TowelRateViewModel.swift */,
+				04A0A1C92C14812D003E5E2E /* AddRateView.swift */,
+				04A0A1CB2C148166003E5E2E /* TowelRateView.swift */,
+				043F81842C1A0D410085E697 /* EditRateView.swift */,
+			);
+			path = TowelRate;
+			sourceTree = "<group>";
+		};
+		04A0A1CD2C148759003E5E2E /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				04A0A1CE2C14876B003E5E2E /* DropDownView.swift */,
+				04A0A1D02C1488F2003E5E2E /* DropDownPicker.swift */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		04A0A1D42C14AADF003E5E2E /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				04A0A1D52C14AAF1003E5E2E /* CustomDatePicker.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		04A0A1D72C14AC85003E5E2E /* CheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				04A0A1D82C14AC94003E5E2E /* CustomCheckBox.swift */,
+			);
+			path = CheckBox;
+			sourceTree = "<group>";
+		};
+		04A693002C2C864300A9743E /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		04A693012C2C86F000A9743E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				04A693022C2C872B00A9743E /* TowelInfoRepo.swift */,
+				0487C6AB2C346BA800E46602 /* ItemFetchable.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		04A693062C2C87C800A9743E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				04A693072C2C87E000A9743E /* TowelInfoRepoImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		04A693092C2C888600A9743E /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				04A6930A2C2C889000A9743E /* TowelDataSource */,
+				0487C6A72C34560900E46602 /* LocalDataSourceProtocol.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		04A6930A2C2C889000A9743E /* TowelDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				04A6930B2C2C89B100A9743E /* LocalDataSource.swift */,
+			);
+			path = TowelDataSource;
+			sourceTree = "<group>";
+		};
+		04A6930D2C33028000A9743E /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				04A6930E2C33028D00A9743E /* DependencyInjectionContainer.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
 		04C0C2992C0B3EDF009554DF = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +426,16 @@
 		04C0C2A42C0B3EE0009554DF /* TowelManagement */ = {
 			isa = PBXGroup;
 			children = (
+				0476EF392C2C819300BEE6E8 /* Data */,
+				048D04EB2C0F910800007491 /* Domain */,
+				043FB7AF2C0B617800A76E41 /* presenter */,
+				048D04E72C0F906100007491 /* Utils */,
+				04C0C2B62C0B4B24009554DF /* CoreData */,
 				04C0C2A52C0B3EE0009554DF /* TowelManagementApp.swift */,
 				04C0C2A72C0B3EE0009554DF /* ContentView.swift */,
 				04C0C2A92C0B3EE3009554DF /* Assets.xcassets */,
 				04C0C2AB2C0B3EE3009554DF /* Preview Content */,
+				04C0C2B32C0B4192009554DF /* TowelManagementData.xcdatamodeld */,
 			);
 			path = TowelManagement;
 			sourceTree = "<group>";
@@ -65,6 +446,25 @@
 				04C0C2AC2C0B3EE3009554DF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04C0C2B62C0B4B24009554DF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				04C0C2B72C0B4B37009554DF /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		04D6E2D92C4C07CD0080DD7C /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				04D6E2D72C4C07770080DD7C /* LoginRequest.swift */,
+				04D6E2DA2C4C07E30080DD7C /* GeneralReponse.swift */,
+				04D6E2DC2C4C087A0080DD7C /* LoginReponse.swift */,
+				04D6E2DE2C4C09FD0080DD7C /* UserResponse.swift */,
+			);
+			path = auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +537,64 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047C83872C10CD0600373E22 /* HomeViewModel.swift in Sources */,
+				043FB7BB2C0B7BCB00A76E41 /* CustomButtons.swift in Sources */,
+				04D6E2DD2C4C087A0080DD7C /* LoginReponse.swift in Sources */,
+				047C83992C10DFF000373E22 /* AddTowelInfo.swift in Sources */,
+				047D86242C249C59005CD2D7 /* EditClientInfoView.swift in Sources */,
+				0469505B2C270FBB00158A75 /* AddTransactionBillView.swift in Sources */,
+				043F818E2C1A213A0085E697 /* AddClientTypeView.swift in Sources */,
+				04A0A1D12C1488F2003E5E2E /* DropDownPicker.swift in Sources */,
+				043FB7B82C0B7AA300A76E41 /* CustomTextField.swift in Sources */,
+				04C0C2B52C0B4192009554DF /* TowelManagementData.xcdatamodeld in Sources */,
 				04C0C2A82C0B3EE0009554DF /* ContentView.swift in Sources */,
+				04A6930C2C2C89B100A9743E /* LocalDataSource.swift in Sources */,
+				047C83972C10DF4000373E22 /* TowelInfoViewModel.swift in Sources */,
+				04A693052C2C87A100A9743E /* CustomEnum.swift in Sources */,
+				043FB7B42C0B661400A76E41 /* TowelTypeViewModel.swift in Sources */,
+				043F818C2C1A1DA40085E697 /* ClientTypeView.swift in Sources */,
+				04A0A1CA2C14812D003E5E2E /* AddRateView.swift in Sources */,
+				04A0A1C82C147C6A003E5E2E /* TowelRateViewModel.swift in Sources */,
+				048D04EA2C0F90A400007491 /* HomeView.swift in Sources */,
+				04A0A1D62C14AAF1003E5E2E /* CustomDatePicker.swift in Sources */,
+				047C83952C10DF1B00373E22 /* TowelInfoView.swift in Sources */,
+				047C83902C10D72300373E22 /* ToastModel.swift in Sources */,
+				04A693032C2C872B00A9743E /* TowelInfoRepo.swift in Sources */,
+				048D04F52C0F98B100007491 /* AddTowelSize.swift in Sources */,
+				04C0C2B82C0B4B37009554DF /* CoreDataManager.swift in Sources */,
+				04A0A1D92C14AC94003E5E2E /* CustomCheckBox.swift in Sources */,
+				048D04F12C0F967500007491 /* TowelSizeView.swift in Sources */,
+				049F30D42C1B5AFF001B80E6 /* ClientInfoViewModel.swift in Sources */,
+				04D6E2E12C4C1E8A0080DD7C /* CustomKeyChain.swift in Sources */,
+				04D6E2D82C4C07770080DD7C /* LoginRequest.swift in Sources */,
+				049F30D62C1B5C34001B80E6 /* ClientInfoView.swift in Sources */,
+				0487C6AC2C346BA800E46602 /* ItemFetchable.swift in Sources */,
 				04C0C2A62C0B3EE0009554DF /* TowelManagementApp.swift in Sources */,
+				04D6E2DF2C4C09FD0080DD7C /* UserResponse.swift in Sources */,
+				046950592C270B6A00158A75 /* TransactionBillViewModel.swift in Sources */,
+				04A0A1CF2C14876B003E5E2E /* DropDownView.swift in Sources */,
+				049F30D82C1B5CC1001B80E6 /* AddClientInfoView.swift in Sources */,
+				048D04F72C0F98BC00007491 /* EditTowelSize.swift in Sources */,
+				04A6930F2C33028D00A9743E /* DependencyInjectionContainer.swift in Sources */,
+				047C83892C10CEE900373E22 /* CustomToast.swift in Sources */,
+				043F81852C1A0D410085E697 /* EditRateView.swift in Sources */,
+				047C839B2C10E03000373E22 /* EditTowelInfo.swift in Sources */,
+				043F818A2C1A1CB70085E697 /* ClientTypeViewModel.swift in Sources */,
+				046950572C270B3800158A75 /* TransactionBillView.swift in Sources */,
+				043FB7BF2C0B912400A76E41 /* EditTowelType.swift in Sources */,
+				049F30D12C1B5871001B80E6 /* EditClientTypeView.swift in Sources */,
+				048D04EE2C0F912A00007491 /* MenuItem.swift in Sources */,
+				0476EF3C2C2C820100BEE6E8 /* NetworkService.swift in Sources */,
+				04D6E2DB2C4C07E30080DD7C /* GeneralReponse.swift in Sources */,
+				047C83922C10DBAB00373E22 /* Overlay.swift in Sources */,
+				04A0A1D32C14933A003E5E2E /* DropDownItem.swift in Sources */,
+				043FB7BD2C0B859300A76E41 /* AddTowelType.swift in Sources */,
+				04A693082C2C87E000A9743E /* TowelInfoRepoImpl.swift in Sources */,
+				04A0A1CC2C148166003E5E2E /* TowelRateView.swift in Sources */,
+				0487C6A82C34560900E46602 /* LocalDataSourceProtocol.swift in Sources */,
+				043FB7B22C0B619C00A76E41 /* TowelTypeView.swift in Sources */,
+				048D04F32C0F96F100007491 /* TowelSizeViewModel.swift in Sources */,
+				0476EF3E2C2C82ED00BEE6E8 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +800,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04C0C2B32C0B4192009554DF /* TowelManagementData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04C0C2B42C0B4192009554DF /* TowelManagementData.xcdatamodel */,
+			);
+			currentVersion = 04C0C2B42C0B4192009554DF /* TowelManagementData.xcdatamodel */;
+			path = TowelManagementData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 04C0C29A2C0B3EDF009554DF /* Project object */;
 }

@@ -8,11 +8,27 @@
 import SwiftUI
 
 struct DropDownView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+  //  @State var selection: String? = nil
+    var defaultIndex :Int? = -1
+    @State var selection1: String? = nil
+    @State var index: Int? = nil
+    var data: [String]
+    var hint: String
+    
+  //  @Binding var selection: String
+        
+        var body: some View {
+            DropDownPicker(
+                    selection: $selection1,
+                    indexValue: $index,
+                    options:data,
+                    hint: hint
+                )
+            .preference(key: TextPreference.self, value: index ?? -1)
+           
+        }
 }
 
-#Preview {
-    DropDownView()
-}
+//#Preview {
+//    DropDownView()
+//}

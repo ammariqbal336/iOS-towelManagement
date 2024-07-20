@@ -6,3 +6,7 @@
 //
 
 import Foundation
+struct DataModel<T: Decodable>{
+    var status : Int
+    var data: T
+}

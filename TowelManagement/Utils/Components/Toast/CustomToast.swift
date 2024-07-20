@@ -9,26 +9,40 @@ import SwiftUI
 
 
 struct CustomToast: View {
-    @State private var showToast = false
-
+    
+    let toast: ToastModel
+    @Binding var show: Bool
+    
        var body: some View{
            VStack{
-
-               Button("Show Toast"){
-                    showAlert.toggle()
+               Spacer()
+               HStack {
+                   Image(systemName: toast.image)
+                   Text(toast.title)
+               }
+               .font(.headline)
+               .foregroundColor(.primary)
+               .padding(.vertical,20)
+               .padding(.horizontal,40)
+               .background(.gray.opacity(0.4),in:Capsule())
+               
+           }
+           .frame(width: UIScreen.main.bounds.width / 1.25)
+           .transition(AnyTransition.move(edge: .bottom).combined(with: .opacity))
+           .onTapGesture {
+               withAnimation{
+                   self.show = false
                }
            }
-           .toast(isPresenting: $showToast){
-
-               // `.alert` is the default displayMode
-               AlertToast(type: .regular, title: "Message Sent!")
-               
-               //Choose .hud to toast alert from the top of the screen
-               //AlertToast(displayMode: .hud, type: .regular, title: "Message Sent!")
+           .onAppear{
+               DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                   withAnimation{
+                       self.show = false
+                   }
+               }
            }
        }
+    
+    
 }
 
-#Preview {
-    CustomToast()
-}

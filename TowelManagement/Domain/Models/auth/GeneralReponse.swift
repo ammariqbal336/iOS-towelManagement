@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct GeneralReponse<T: Codable> : Codable {
+    let status: Bool
+    //let message: String
+    let data: T?
+}

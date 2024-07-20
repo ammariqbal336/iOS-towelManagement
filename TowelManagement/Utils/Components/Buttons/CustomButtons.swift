@@ -18,7 +18,6 @@ struct CustomButtons: View {
                 .foregroundColor(.white)
                 .background(Color.blue)
                 .cornerRadius(10)
-                .padding(EdgeInsets(top: -20, leading: 20, bottom: 0, trailing: 20))
         })
     }
 }

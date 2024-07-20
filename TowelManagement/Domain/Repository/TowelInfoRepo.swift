@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol TowelInfoRepo {
+    func getTowelInfo()  -> Result<[TowelInfo],NetworkError>
+}

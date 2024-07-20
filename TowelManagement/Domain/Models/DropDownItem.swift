@@ -6,3 +6,7 @@
 //
 
 import Foundation
+class DropDownItem {
+    var id: String = ""
+    var value: String = ""
+}

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+class HomeViewModel : ObservableObject {
+    
+    var data :  [MenuItem] = MenuItem.list
+}
